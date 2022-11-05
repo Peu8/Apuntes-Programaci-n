@@ -1,7 +1,7 @@
 <!--Tipo de Documento, Formato HTML 5-->
 <!DOCTYPE html>
 
-<!--Todo el Documento tiene que esta entree las estiquetas <html></hmtl>, lang="en" indica idioma del documento-->
+<!--Todo el Documento tiene que esta entre las estiquetas <html></hmtl>, lang="en" indica idioma del documento-->
 <html lang="en">
 
 <!--<head></head> Parte no visible del documento donde se encuentran los: meta-->  
@@ -11,6 +11,8 @@
     <meta charset="UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--Meta necesario para mostrar la pagina correctamente en dispositivos moviles-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!--Titulo de la página (Apararece como nombre de la pestaña)-->
@@ -62,16 +64,63 @@
         <ins>Texto ejemplo</ins>
     </p>
     
-    <p>
-        <!--Enlaces y su estructura: <a href="ubicación local o en la web">Texto visible</a>-->
+    <!--Enlaces y su estructura: <a href="ubicación local o en la web">Texto visible</a>-->
 
-            <!--Dirección Local-->
-            <a href="ej.html">Enlace</a>
+        <!--Dirección Local-->
+       <a href="ej.html">Enlace</a>
 
-            <!--Dirección en la Web-->
-            <a href="https://www.google.com">Enlace</a>
-            
-    </p>
+        <!--Dirección en la Web-->
+        <a href="https://www.google.com">Enlace</a>
     
+    <!--Listas-->
+        
+        <!--Los items de una lista se colocan dentro de <li></li>-->
+        
+        <!--Lista Ordenada-->
+        <ol>
+            <li>Item</li>
+        </ol>
+        
+        <!--Lista Desordenada-->
+        <ul>
+            <li>Item</li>
+        </ul>
+
+        <!--Los items dentro de una lista descriptiva se colocan dentro de <dt></dt>(Titulo del Item) y <dd></dd>(Descripción del item) -->
+        <!--Lista Descriptiva-->
+        <dl>
+            <dt>Titulo</dt>
+            <dd>Descripción</dd>
+        </dl>
+
+    <!--Tablas-->
+
+        <!--siempre deben ir dentro del elemento <table></table>--> 
+
+        <!--Titulo de la Tabla-->
+        <table>
+            <caption>Título</caption>
+        </table>
+
+        <!--Definir celdas de encabezado de la tabla-->
+        <table>
+            <th>Envabezado</th>
+        </table>
+
+        <!--Definir una fila en una tabla-->
+        <table>
+            <tr>Fila</tr>
+        </table>
+
+         <!--Definir una celda en una tabla-->
+         <table>
+            <td>Celda</td>
+        </table>
+
+        <!--Los Elementos de una tabla se pueden agrupar segun correspondan en:-->
+        <thead></thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+
 </body>
 </html>
